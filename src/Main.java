@@ -59,12 +59,28 @@ public class Main {
 //        Sukurti kintamąjį su stringu: “An American in Paris”. Jame ištrinti visas balses. Rezultatą atspausdinti.
 //        Kodą pakartoti su stringais: “Breakfast at Tiffany's”, “2001: A Space Odyssey” ir “It's a Wonderful Life”.
 
-        String rezultatas3 = paris.replaceAll("[AEIOUaeiou]", "");
+        String paris3 = "Breakfast at Tiffany's";
+        String paris4 = "2001: A Space Odyssey";
+        String paris5 = "It's a Wonderful Life";
+
+
+        String rezultatas1 = paris.replaceAll("[AEIOUaeiou]", "");
+        System.out.println(rezultatas1);
+        String rezultatas2 = paris3.replaceAll("[AEIOUaeiou]", "");
+        System.out.println(rezultatas2);
+        String rezultatas3 = paris4.replaceAll("[AEIOUaeiou]", "");
         System.out.println(rezultatas3);
+        String rezultatas4 = paris5.replaceAll("[AEIOUaeiou]", "");
+        System.out.println(rezultatas4);
 
 //      7 uzduotis Stringe, kurį generuoja toks kodas:
 //        "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope"
 //        Surasti ir atspausdinti epizodo numerį.
+
+
+
+
+
 
 
 
